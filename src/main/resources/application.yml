@@ -1,0 +1,14 @@
+row:
+  cs:
+    reuse: true
+  enable: true
+  ws:
+    enable: true
+  client:
+    enable: true
+    type: spring
+  handler:
+    track-heartbeats: false
+spring:
+  main:
+    allow-bean-definition-overriding: true
